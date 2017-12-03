@@ -4,5 +4,11 @@ version: 5.0.3
 api: [3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9]
 
 author: KnownUnown
-description: A plugin for [installing, uninstalling, viewing] other plugins.
+description: A plugin for [installing, uninstalling, viewing] other plugins edited for HydrolicServers.
 website: https://www.github.com/KnownUnown/Sheep
+command:
+ sheep:
+ permission: sheep.command
+permission:
+ sheep.command:
+  default: op
