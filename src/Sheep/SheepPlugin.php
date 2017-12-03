@@ -10,7 +10,6 @@ use pocketmine\plugin\PluginBase;
 use Sheep\Async\PMAsyncHandler;
 use Sheep\Command\CommandManager;
 use Sheep\Command\InfoCommand;
-use Sheep\Command\PMCommandProxy;
 use Sheep\Command\UpdateCommand;
 use Sheep\Source\SourceManager;
 use Sheep\Store\FileStore;
